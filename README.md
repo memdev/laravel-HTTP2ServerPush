@@ -18,7 +18,7 @@ Simply route your requests through the `AddHttp2ServerPush` middleware and it wi
 
 You can install the package via composer:
 ``` bash
-$ composer require jacobbennett/laravel-http2serverpush
+$ composer require vsg24/laravel-http2serverpush
 ```
 
 Next you must add the `\JacobBennett\Http2ServerPush\Middleware\AddHttp2ServerPush`-middleware to the kernel. Adding it to the web group is recommeneded as API's do not have assets to push.
