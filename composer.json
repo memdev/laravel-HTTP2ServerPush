@@ -1,5 +1,5 @@
 {
-    "name": "jacobbennett/laravel-http2serverpush",
+    "name": "vsg24/laravel-http2serverpush",
     "description": "A HTTP2 Server Push Middleware for Laravel 5",
     "keywords": [
         "laravel",
