@@ -7,6 +7,8 @@
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Total Downloads](https://img.shields.io/packagist/dt/jacobbennett/laravel-http2serverpush.svg?style=flat-square)](https://packagist.org/packages/jacobbennett/laravel-http2serverpush)
 
+### This repo is a fork of [JacobBennett/laravel-HTTP2ServerPush](https://github.com/JacobBennett/laravel-HTTP2ServerPush) with [this commit](https://github.com/JacobBennett/laravel-HTTP2ServerPush/pull/28) merged.
+
 Server Push is a HTTP/2 concept which allows the server to speculatively start sending resources to the client. This can potentially speed up initial page load times: the browser doesn't have to parse the HTML page and find out which other resources to load, instead the server can start sending them immediately. [(source)](http://blog.xebia.com/http2-server-push/)
 
 This package aims to provide the _easiest_ experience for adding Server Push to your responses. 
@@ -33,6 +35,13 @@ protected $middlewareGroups = [
     ...
 ];
 ```
+
+## Publish config
+
+```php
+php artisan vendor:publish --provider="JacobBennett\Http2ServerPush\ServiceProvider"
+```
+
 
 ## Usage
 
