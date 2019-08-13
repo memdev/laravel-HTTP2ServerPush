@@ -34,6 +34,14 @@ protected $middlewareGroups = [
     ],
     ...
 ];
+
+// config/app.php
+
+'providers' => [
+    ...
+    JacobBennett\Http2ServerPush\ServiceProvider::class,
+    ...
+],
 ```
 
 ## Publish config
