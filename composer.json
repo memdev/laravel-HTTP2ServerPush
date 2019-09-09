@@ -1,6 +1,6 @@
 {
-    "name": "vsg24/laravel-http2serverpush",
-    "description": "A HTTP2 Server Push Middleware for Laravel 5",
+    "name": "memdev/laravel-http2serverpush",
+    "description": "A HTTP2 Server Push Middleware for Laravel",
     "keywords": [
         "laravel",
         "laravel-http2serverpush",
@@ -18,8 +18,8 @@
     ],
     "require": {
         "php" : "^5.5|^7.0",
-        "illuminate/support": "^5.3",
-        "illuminate/http": "^5.3",
+        "illuminate/support": "^5.3|^6",
+        "illuminate/http": "^5.3|^6",
         "symfony/dom-crawler": "^2.7|^3.0|^4.0",
         "symfony/css-selector": "^2.7|^3.0|^4.0"
     },
